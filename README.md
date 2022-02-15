@@ -9,7 +9,7 @@ La idea es mediante información financiera simulada interactuar entre los disti
   - SQL
 
 
-## Como levantar el proyecto
+## Como seguir el proyecto
 
 1. Descargar el repositorio 
 2. Ingresar a *MySQL* y escribir: **SET GLOBAL local_infile=true**
