@@ -5,8 +5,8 @@
 USE mysql;
 
 /* --------------------------- Creacion de usuarios -------------------------- */
-CREATE USER 'usuario_sel'@'hosting' IDENTIFIED BY 'lectura';
-CREATE USER 'usuario_sel_ins_upd'@'hosting' IDENTIFIED BY 'sel_ins_upd';
+CREATE USER 'usuario_sel'@'localhost' IDENTIFIED BY 'lectura';
+CREATE USER 'usuario_sel_ins_upd'@'localhost' IDENTIFIED BY 'sel_ins_upd';
 
 
 /* ------------------------------- Privilegios ------------------------------ */
@@ -22,13 +22,13 @@ SELECT * FROM user;
 
 -- Otorgamos privilegios de lectura al usuario 'usuario_sel' a todas las tablas
 -- de creditos
-GRANT SELECT ON creditos.* TO 'usuario_sel'@'hosting';
-SHOW GRANTS FOR 'usuario_sel'@'hosting';
+GRANT SELECT ON creditos.* TO 'usuario_sel'@'localhost';
+SHOW GRANTS FOR 'usuario_sel'@'localhost';
 
 -- Otorgamos privilegios de lectura, inserción y modificación al usuario 
 -- 'usuario_sel_ins_upd'
-GRANT SELECT, INSERT, UPDATE ON creditos.* TO 'usuario_sel_ins_upd'@'hosting';
-SHOW GRANTS FOR 'usuario_sel_ins_upd'@'hosting';
+GRANT SELECT, INSERT, UPDATE ON creditos.* TO 'usuario_sel_ins_upd'@'localhost';
+SHOW GRANTS FOR 'usuario_sel_ins_upd'@'localhost';
 
 
 
