@@ -18,6 +18,7 @@ La idea es mediante información financiera simulada interactuar entre los disti
 * [Triggers](https://github.com/bluepill5/SQL-Dev/blob/main/scripts/triggersDB.sql)
 * [DCL Sintaxis y Pruebas](https://github.com/bluepill5/SQL-Dev/blob/main/scripts/dclDB_Pruebas.sql)
 * [DCL (Lenguaje)](https://github.com/bluepill5/SQL-Dev/blob/main/scripts/dclDB.sql)
+* [TCL](https://github.com/bluepill5/SQL-Dev/blob/main/scripts/tclDB.sql)
 
 ## Como seguir el proyecto
 
