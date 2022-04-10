@@ -10,9 +10,12 @@ Mediante un arquitectura muy sencilla simulando información financiera se prete
 
 ![diagram](https://user-images.githubusercontent.com/4382527/162629725-823c3b3e-dc91-4005-91e2-8943ddae5c23.png)
 
+La idea para un proyecto con mayor aclance redifinir la arquitectura y mediante web scraping obtener la información de prodcutos de distintas instituciones financieras.
+
 ## Tecnologías usadas
 
   - SQL
+  - MySQL
 
 
 ## Temas
