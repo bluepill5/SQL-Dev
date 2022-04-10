@@ -4,6 +4,10 @@
 
 La idea es mediante información financiera simulada interactuar entre los distintos modelos para explotar la información.
 
+## Datos
+
+Mediante un arquitectura muy sencilla simulando información financiera se pretende practicar los distintos conceptos **SQL**  
+
 ## Tecnologías usadas
 
   - SQL
@@ -29,6 +33,7 @@ La idea es mediante información financiera simulada interactuar entre los disti
 4. Los comandos se pueden ejecutar como: **source script.sql**
 
 
+![ProjectSQL](https://user-images.githubusercontent.com/4382527/162629353-e2eaf9f0-a088-49c2-a09b-ac9b5dd4fa95.gif)
 
 
 
