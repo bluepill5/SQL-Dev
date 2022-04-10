@@ -8,6 +8,8 @@ La idea es mediante información financiera simulada interactuar entre los disti
 
 Mediante un arquitectura muy sencilla simulando información financiera se pretende practicar los distintos conceptos **SQL**  
 
+- SQL![diagram](https://user-images.githubusercontent.com/4382527/162629725-823c3b3e-dc91-4005-91e2-8943ddae5c23.png)
+
 ## Tecnologías usadas
 
   - SQL
